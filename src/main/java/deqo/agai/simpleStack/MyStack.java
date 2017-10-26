@@ -12,6 +12,7 @@ public class MyStack implements SimpleStack {
     }
 
     public int getSize() {
+        // Ce commentaire est affacté a l'exigence 1
         return this.items.size();
     }
 
