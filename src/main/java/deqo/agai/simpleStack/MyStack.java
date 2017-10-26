@@ -29,6 +29,7 @@ public class MyStack implements SimpleStack {
     }
 
     public Item pop() throws EmptyStackException {
+        // Exigence 3
         if (this.items.isEmpty()) {
             throw new EmptyStackException();
         } else {
