@@ -5,6 +5,7 @@ public class Item {
     private Object objet;
 
     // Constructeur
+    // Satisfait l'exigence 2
     public Item(Object object) {
         this.objet = object;
     }
